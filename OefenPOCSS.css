@@ -16,7 +16,7 @@ body{
 	background-image:url(https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:center -60px;
+	background-position:center -30px;
 	padding: 100px 20px 0px 20px;
 }
 
@@ -35,6 +35,36 @@ body{
 
 .main-nav a:hover{
 	top:5px;
+}
+
+.page-content{
+	padding: 20px;
+}
+
+h1{
+	background-color: #b68052;
+	margin: 20px;
+	padding: 10px 20px;
+	color: aliceblue;
+}
+
+h2{
+  font-family:monospace;
+}
+
+.top-nav ul{
+	list-style-type:none;
+}
+
+.top-nav ul li{
+	transition: all 300ms ease;
+	left:0px;
+	position:relative;
+}
+
+.top-nav ul li:hover{
+	left: 4px;
+}
 }
 
 .page-content{
